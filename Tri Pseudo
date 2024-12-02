@@ -1,0 +1,22 @@
+// Tri Algo Pseudo
+
+// Initialise a table Of 10 elements
+
+
+// Algorithme de tri
+
+Pour (Entier i=0; i<tab.length()-1; ++i)
+    indiceDuplusPetit = indiceDuplusPetit
+      Pour (Entier j=i; j<tab.length(); ++j)
+       si (tab[j] < tab[indiceDupluspetit])
+          Alors indiceDuPlusPetit = j
+        Fin-si
+    Fin-Pour
+    // Permuter
+    tmp = tab [indiceDuPlusPetit]
+    tab[indiceDuPlusPetit] = tab[i]
+    tab[i] = tmp
+   Fin-Pour
+
+   // Afficher le tableau trié
+        
